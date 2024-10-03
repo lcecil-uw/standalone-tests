@@ -1,0 +1,4 @@
+<p>child works!</p>
+<ng-container *ngIf="data | async as data">
+  <p *ngFor="let item of data">{{ item.title }}</p>
+</ng-container>
